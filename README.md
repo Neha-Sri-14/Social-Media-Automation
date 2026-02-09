@@ -84,3 +84,11 @@ store = InMemoryPostStore()
 scheduler = Scheduler(store)
 scheduler.schedule_post("post-001", post)
 ```
+
+## Streamlit Preview
+
+Run the Streamlit app to preview scheduling and analytics flows in a simple dashboard:
+
+```bash
+streamlit run app.py
+```
